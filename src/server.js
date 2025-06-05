@@ -5,7 +5,7 @@ import pokemonRoutes from "../routes/pokemon.js";
 const app = express();
 const PORT = 3000;
 
-const __filename = fileURLTOPath(import.meta.url);
+const __filename = fileURLToPath(import.meta.url);
 
 app.set("view engine", "ejs");
 
